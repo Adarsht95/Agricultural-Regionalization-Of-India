@@ -62,7 +62,7 @@ export const AczInteractiveMap: React.FC<AczInteractiveMapProps> = ({
     }).addTo(map);
 
     // Fetch web-optimized GeoJSON
-    fetch('/data/agro_climatic_zones_web.geojson')
+    fetch(`${import.meta.env.BASE_URL}data/agro_climatic_zones_web.geojson`)
       .then((res) => res.json())
       .then((data) => {
         if (!mapInstanceRef.current) return;

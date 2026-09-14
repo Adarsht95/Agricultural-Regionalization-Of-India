@@ -57,7 +57,7 @@ export const GisLayerExplorer: React.FC<GisLayerExplorerProps> = ({ onSelectRegi
     centroidsLayerRef.current = centroidGroup;
 
     // 1. Fetch ACZ GeoJSON
-    fetch('/data/agro_climatic_zones_web.geojson')
+    fetch(`${import.meta.env.BASE_URL}data/agro_climatic_zones_web.geojson`)
       .then((res) => res.json())
       .then((data) => {
         if (!mapInstanceRef.current) return;
@@ -113,7 +113,7 @@ export const GisLayerExplorer: React.FC<GisLayerExplorerProps> = ({ onSelectRegi
       });
 
     // 2. Fetch AEZ GeoJSON
-    fetch('/data/agro_ecological_zones_web.geojson')
+    fetch(`${import.meta.env.BASE_URL}data/agro_ecological_zones_web.geojson`)
       .then((res) => res.json())
       .then((data) => {
         if (!mapInstanceRef.current) return;

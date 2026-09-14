@@ -58,7 +58,7 @@ export const AezInteractiveMap: React.FC<AezInteractiveMapProps> = ({
       subdomains: 'abcd'
     }).addTo(map);
 
-    fetch('/data/agro_ecological_zones_web.geojson')
+    fetch(`${import.meta.env.BASE_URL}data/agro_ecological_zones_web.geojson`)
       .then((res) => res.json())
       .then((data) => {
         if (!mapInstanceRef.current) return;

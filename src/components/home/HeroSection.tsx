@@ -42,7 +42,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreAcz, onExplor
     ];
 
     // Load web-optimized GeoJSON for hero background visualization
-    fetch('/data/agro_climatic_zones_web.geojson')
+    fetch(`${import.meta.env.BASE_URL}data/agro_climatic_zones_web.geojson`)
       .then((res) => res.json())
       .then((geojson) => {
         if (!mapInstanceRef.current) return;
