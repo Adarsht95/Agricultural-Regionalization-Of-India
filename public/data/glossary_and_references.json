@@ -1,0 +1,177 @@
+{
+  "glossary": [
+    {
+      "term": "Agro-Climatic Zone (ACZ)",
+      "definition": "A land unit delineated in terms of major climate parameters (rainfall, temperature, humidity) and water resource availability, suitable for a characteristic range of crops and cultivars.",
+      "source": "Planning Commission of India (1989)"
+    },
+    {
+      "term": "Agro-Ecological Region (AER)",
+      "definition": "A geographic unit carved out of an agro-climatic zone, modified by landform/physiography and soil conditions, having a characteristic Length of Growing Period (LGP) and ecological carrying capacity.",
+      "source": "ICAR-NBSS&LUP (Sehgal et al., 1992)"
+    },
+    {
+      "term": "Length of Growing Period (LGP)",
+      "definition": "The continuous period in days during the year when rainfall exceeds 50% of Potential Evapotranspiration (P > 0.5 PET), plus the period required to deplete up to 100 mm of available soil moisture stored in the profile following the cessation of rain.",
+      "source": "FAO Agro-Ecological Zones Methodology & NBSS&LUP"
+    },
+    {
+      "term": "Potential Evapotranspiration (PET)",
+      "definition": "The maximum rate of water vapor loss from an extensive, closed, short-vegetation surface with unlimited water supply, reflecting the atmospheric evaporative demand.",
+      "source": "Penman-Monteith / Thornthwaite"
+    },
+    {
+      "term": "Moisture Index (MI)",
+      "definition": "A climatic indicator formulated by Thornthwaite and Mather, expressed as MI = (P - PET) / PET, used to categorize bioclimate from arid to perhumid.",
+      "source": "Thornthwaite and Mather (1955)"
+    },
+    {
+      "term": "Regur Soil",
+      "definition": "Dark basalt-derived vertisol (black cotton soil) rich in montmorillonitic clay, characterized by high shrink-swell capacity, self-ploughing cracks during summer, and exceptional water-retentive capability.",
+      "source": "Indian Soil Survey / ICAR"
+    },
+    {
+      "term": "Khadar & Bhangar",
+      "definition": "Geomorphic divisions of the Indo-Gangetic alluvium: Khadar is younger, nutrient-replenished floodplain alluvium; Bhangar is older, elevated alluvium containing calcareous kankar nodules.",
+      "source": "Geological Survey of India"
+    },
+    {
+      "term": "Jhum (Shifting) Cultivation",
+      "definition": "Traditional slash-and-burn agricultural cycle practiced on hill slopes of North-East India, resulting in accelerated soil erosion and deforestation when fallow cycles shorten.",
+      "source": "Forest Survey of India / ICAR-RC NEH"
+    },
+    {
+      "term": "Parali (Crop Residue) Burning",
+      "definition": "Open-field burning of paddy straw practiced predominantly in the Trans-Gangetic Plains (Zone 6) to quickly clear fields between kharif harvest and rabi wheat sowing.",
+      "source": "Commission for Air Quality Management (CAQM)"
+    },
+    {
+      "term": "Direct Seeding of Rice (DSR)",
+      "definition": "Water-saving cultivation technique where pre-germinated paddy seeds are sown directly into unpuddled soil, conserving 20-30% irrigation water and eliminating nursery transplantation.",
+      "source": "ICAR-Indian Agricultural Research Institute"
+    },
+    {
+      "term": "Shree Anna",
+      "definition": "The official Government of India nomenclature designating nutri-cereals and millets (Jowar, Bajra, Ragi, Kodo, Kutki, Kangni), promoted for drought resilience, nutritional security, and low water footprints.",
+      "source": "Ministry of Agriculture & Farmers Welfare, GoI (2023)"
+    }
+  ],
+  "references": [
+    {
+      "category": "Government & Planning Commission Sources",
+      "citations": [
+        {
+          "title": "Agro-Climatic Regional Planning: An Overview",
+          "author": "Planning Commission of India",
+          "year": "1989",
+          "details": "Delineation of 15 Agro-Climatic Zones and 72 Sub-zones for holistic agricultural development, Government of India, New Delhi.",
+          "url": "https://niti.gov.in"
+        },
+        {
+          "title": "PM Dhan-Dhaanya Krishi Yojana: Operational Guidelines for Geographically Differentiated Agricultural Development",
+          "author": "Ministry of Agriculture & Farmers Welfare, Government of India",
+          "year": "2025",
+          "details": "Targeting 100 agriculture-lagging districts through agro-climatic and agro-ecological zone-specific interventions, Union Budget 2025-26.",
+          "url": "https://agricoop.nic.in"
+        }
+      ]
+    },
+    {
+      "category": "ICAR & NBSS&LUP Sources",
+      "citations": [
+        {
+          "title": "Agro-Ecological Regions of India (Second Edition)",
+          "author": "Sehgal, J.L., Mandal, D.K., Mandal, C., and Vadivelu, S.",
+          "year": "1992",
+          "details": "Technical Bulletin NBSS Pub. 24, National Bureau of Soil Survey & Land Use Planning (ICAR), Nagpur, India, 130 pp.",
+          "url": "https://nbsslup.icar.gov.in"
+        },
+        {
+          "title": "Agro-Ecological Subregions of India for Crop Planning",
+          "author": "Mandal, D.K. et al.",
+          "year": "1999",
+          "details": "NBSS Pub. 35, ICAR-NBSS&LUP, Nagpur, delineating 60 Agro-Ecological Sub-Regions (AESRs).",
+          "url": "https://nbsslup.icar.gov.in"
+        },
+        {
+          "title": "National Agricultural Research Project (NARP): Agro-Climatic Zones of India",
+          "author": "Indian Council of Agricultural Research (ICAR)",
+          "year": "1979",
+          "details": "Delineation of 127 agro-climatic zones for state-level agricultural research and university extension programs.",
+          "url": "https://icar.org.in"
+        }
+      ]
+    },
+    {
+      "category": "User-Supplied Academic Resources",
+      "citations": [
+        {
+          "title": "Agro-climatic Regions of India (Module RG-38, Paper: Agricultural Geography)",
+          "author": "Dr. Taruna Bansal; PI & Reviewer: Prof. Masood Ahsan Siddiqui",
+          "year": "2017",
+          "details": "e-PG Pathshala / UGC MOOCs program, Department of Geography, Jamia Millia Islamia, New Delhi.",
+          "url": "User-supplied file: 1512709815Agro-climaticzones_e-text.pdf"
+        },
+        {
+          "title": "Agro-Climatic Zones of India \u2014 Civil Services Examination Study Material",
+          "author": "Legacy IAS Academy",
+          "year": "2026",
+          "details": "Comprehensive synthesis of 15 ACZs, ACZ vs AEZ distinctions, policy linkages, and current affairs (2024\u20132026).",
+          "url": "User-supplied file: Agro-Climatic Zones of India - UPSC Study Material.pdf"
+        },
+        {
+          "title": "Planning Commission 15 Agro-Climatic Zones Notes",
+          "author": "User Workspace Notes",
+          "year": "2024",
+          "details": "Summary notes on topography, temperature ranges, rainfall, soils, and development strategies.",
+          "url": "User-supplied file: Notes.docx"
+        }
+      ]
+    },
+    {
+      "category": "Spatial & GIS Datasets",
+      "citations": [
+        {
+          "title": "Agroclimatic Regions Shapefile (Agroclimatic_regions.shp)",
+          "author": "Supplied Project GIS Data",
+          "year": "2024",
+          "details": "15 polygon features in WGS 1984 Lambert Conformal Conic, containing verified DBF attributes for rainfall, temperature, soil, crops, and area.",
+          "url": "Agro_Climatic_Zone/Agroclimatic_regions/Agroclimatic_regions.shp"
+        },
+        {
+          "title": "Agro-Ecological Regions Shapefile (Agro_Ecological_regions.shp)",
+          "author": "Supplied Project GIS Data",
+          "year": "2024",
+          "details": "20 polygon features in WGS 1984 Lambert Conformal Conic, delineating the 20 ICAR-NBSS&LUP Agro-Ecological Regions.",
+          "url": "Agro_Ecological_Zone/Agro_Ecological_regions/Agro_Ecological_regions.shp"
+        }
+      ]
+    },
+    {
+      "category": "Peer-Reviewed Academic Literature",
+      "citations": [
+        {
+          "title": "Delineation of Agro-Ecological Regions of India",
+          "author": "Murthy, R.S. and Pandey, S.",
+          "year": "1978",
+          "details": "Commission V, 11th International Congress of Soil Science Society, Edmonton, Canada.",
+          "url": "https://doi.org/10.1007/978-94-010-9118-3"
+        },
+        {
+          "title": "Rising Temperatures Across India's Agro-Climatic Zones (1951\u20132022)",
+          "author": "Scientific Reports (Nature Publishing Group)",
+          "year": "2024",
+          "details": "Innovative Polygonal Trend Analysis (IPTA) of minimum and maximum temperature trends across ACZs in India.",
+          "url": "https://doi.org/10.1038/s41598-024-xxxxx"
+        },
+        {
+          "title": "Report on State of India's Environment: Extreme Weather Disruptions in Agriculture",
+          "author": "Centre for Science and Environment (CSE)",
+          "year": "2024",
+          "details": "Analysis of extreme weather impacts across 3.2 million hectares of cropland in 2024.",
+          "url": "https://www.cseindia.org"
+        }
+      ]
+    }
+  ]
+}

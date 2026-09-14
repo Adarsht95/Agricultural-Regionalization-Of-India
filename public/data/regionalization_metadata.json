@@ -1,0 +1,2028 @@
+{
+  "project": {
+    "title": "Agricultural Regionalization of India \u2014 An Interactive Geography Atlas",
+    "version": "1.0.0",
+    "generated_at": "2026-09-14",
+    "crs_original": "WGS_1984_Lambert_Conformal_Conic",
+    "crs_web": "WGS84 (EPSG:4326)",
+    "total_acz_zones": 15,
+    "total_aez_regions": 20
+  },
+  "frameworks": [
+    {
+      "id": "acz",
+      "name": "Agro-Climatic Regionalization",
+      "institution": "Planning Commission of India & National Remote Sensing Agency (NRSA)",
+      "year": 1989,
+      "count": 15,
+      "sub_units": "72 Sub-zones",
+      "primary_basis": "Rainfall, Temperature, Water Resources, Topography & Cropping Patterns",
+      "primary_purpose": "Agricultural resource planning, crop suitability zoning, and regional public investment targeting",
+      "source_doc": "Planning Commission (1989), Agro-Climatic Regional Planning: An Overview"
+    },
+    {
+      "id": "aez",
+      "name": "Agro-Ecological Regionalization",
+      "institution": "National Bureau of Soil Survey & Land Use Planning (ICAR-NBSS&LUP)",
+      "year": 1992,
+      "count": 20,
+      "sub_units": "60 Agro-Ecological Sub-Regions (AESRs)",
+      "primary_basis": "Sequential overlay of Bioclimate, Soil Great Groups, Physiography, and Length of Growing Period (LGP)",
+      "primary_purpose": "Land capability assessment, soil conservation, ecological sustainability, and agricultural research transfer",
+      "source_doc": "Sehgal, J.L. et al. (1992), Agro-Ecological Regions of India, NBSS&LUP Pub. 24"
+    },
+    {
+      "id": "narp",
+      "name": "National Agricultural Research Project (NARP) Agro-Climatic Zones",
+      "institution": "Indian Council of Agricultural Research (ICAR)",
+      "year": 1979,
+      "count": 127,
+      "sub_units": "State-level zonal research stations (later expanded to 131)",
+      "primary_basis": "State-wise administrative units, rainfall patterns, irrigation status, and cropping systems",
+      "primary_purpose": "Location-specific agricultural research, extension, and technological transfer across state agricultural universities",
+      "source_doc": "ICAR (1979), National Agricultural Research Project Manual"
+    },
+    {
+      "id": "murthy_pandey",
+      "name": "Murthy & Pandey Agro-Climatic Delineation",
+      "institution": "Academic / NBSS&LUP Early Research",
+      "year": 1978,
+      "count": 8,
+      "sub_units": "Broad agro-climatic divisions",
+      "primary_basis": "Physiography, soils, rainfall and water balance, agricultural practices",
+      "primary_purpose": "Early macro-level agricultural geographic synthesis",
+      "source_doc": "Murthy, R.S. and Pandey, S. (1978), Delineation of Agro-Ecological Regions of India"
+    },
+    {
+      "id": "mitra",
+      "name": "Mitra Natural Classification",
+      "institution": "Census of India / Academic Demography",
+      "year": 1977,
+      "count": 7,
+      "sub_units": "31 Sub-regions and 89 Divisions",
+      "primary_basis": "Natural geography, resource endowments, and broad economic development",
+      "primary_purpose": "Demographic and resource planning",
+      "source_doc": "Mitra, A. (1977), Levels of Regional Development in India"
+    }
+  ],
+  "acz_regions": [
+    {
+      "code": 1,
+      "name": "Western Himalayan Region",
+      "category": "Himalayan",
+      "states": [
+        "Jammu & Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Ladakh"
+      ],
+      "avgtmp_jan": "-4 \u00b0C To 10 \u00b0C",
+      "avgtmp_jul": "05 \u00b0C To 30 \u00b0C",
+      "avgann_rf": "75 cm To 150 cm (Ladakh <30 cm)",
+      "rainfall_num_min": 750,
+      "rainfall_num_max": 1500,
+      "temp_jan_min": -4,
+      "temp_jan_max": 10,
+      "temp_jul_min": 5,
+      "temp_jul_max": 30,
+      "soil": "Skeletal, mountain, hill soils, podzolic and meadow soils",
+      "soil_types": [
+        "Mountain Soil",
+        "Forest Soil",
+        "Skeletal Soil",
+        "Podzolic Soil"
+      ],
+      "physiography": "Lofty Himalayan mountain ranges, deep valleys, high relief, alpine pastures (margs/dhoks) above 2000m",
+      "lgp_days": "Short (90\u2013150 days in valley floors; <90 days in cold arid alpine Ladakh)",
+      "major_crops": [
+        "Wheat",
+        "Barley",
+        "Maize",
+        "Rice",
+        "Saffron",
+        "Potatoes",
+        "Pulses"
+      ],
+      "horticulture": [
+        "Apples",
+        "Peaches",
+        "Pears",
+        "Almonds",
+        "Walnuts",
+        "Cherries"
+      ],
+      "pastoral_activities": "Transhumance rearing of sheep and goats by Gujjar and Gaddi pastoralists in alpine pastures",
+      "water_resources": "Drained by perennial rivers (Indus, Jhelum, Chenab, Ravi, Beas, Sutlej, Ganga, Yamuna) with abundant snowmelt",
+      "constraints": [
+        "Rugged mountain topography with steep slopes",
+        "Severe cold and frost in winter",
+        "Severe soil erosion and landslides",
+        "Inaccessible terrain and transport bottlenecks"
+      ],
+      "development_strategies": [
+        "Water harvesting in hillside ponds",
+        "Terrace stabilization and contour bunding",
+        "Expansion of temperate horticulture and post-harvest cold chains",
+        "Promotion of off-season vegetables and floriculture"
+      ],
+      "shapefile_area_ha": "16320770.81",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 324764.95,
+      "calculated_area_ha": 32476494.85,
+      "calculated_perimeter_km": 4409.43,
+      "centroid": [
+        33.5408,
+        76.8966
+      ],
+      "bbox": [
+        28.9865,
+        72.5295,
+        37.0783,
+        81.043
+      ]
+    },
+    {
+      "code": 2,
+      "name": "Eastern Himalayan Region",
+      "category": "Himalayan",
+      "states": [
+        "Arunachal Pradesh",
+        "Assam (Hills)",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Sikkim",
+        "Tripura",
+        "West Bengal (Darjeeling)"
+      ],
+      "avgtmp_jan": "10 \u00b0C To 25 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 35 \u00b0C",
+      "avgann_rf": "200 cm To 400 cm",
+      "rainfall_num_min": 2000,
+      "rainfall_num_max": 4000,
+      "temp_jan_min": 10,
+      "temp_jan_max": 25,
+      "temp_jul_min": 25,
+      "temp_jul_max": 35,
+      "soil": "Red-brown, brown forest soils and lateritic soils, generally acidic and less fertile on steep slopes",
+      "soil_types": [
+        "Red-Brown Soil",
+        "Forest Soil",
+        "Lateritic Soil",
+        "Acidic Hill Soil"
+      ],
+      "physiography": "Rugged eastern Himalayan ranges, Patkai/Purvanchal hill tracts, steep gorges, dense subtropical/temperate forests",
+      "lgp_days": "Long (210\u2013300+ days; perhumid to humid)",
+      "major_crops": [
+        "Rice",
+        "Maize",
+        "Potato",
+        "Tea",
+        "Cardamom",
+        "Ginger",
+        "Pineapple",
+        "Citrus (Orange, Lime)"
+      ],
+      "horticulture": [
+        "Tea on hill terraces",
+        "Large cardamom (Sikkim)",
+        "Pineapple",
+        "Oranges",
+        "Arecanut"
+      ],
+      "pastoral_activities": "Livestock and piggery integrated with traditional jhum/shifting cultivation",
+      "water_resources": "Brahmaputra and swift Himalayan tributaries (Teesta, Manas, Subansiri, Barak) with heavy monsoon runoff",
+      "constraints": [
+        "Widespread shifting (Jhum) cultivation causing soil degradation and forest loss",
+        "Heavy rainfall causing acute soil erosion on slopes",
+        "Frequent flash floods in foothill valleys",
+        "Poor market connectivity and processing infrastructure"
+      ],
+      "development_strategies": [
+        "Gradual transition from jhuming to settled terrace cultivation and agro-forestry",
+        "Encouraging high-value organic horticulture (spices, citrus, tea)",
+        "Development of sericulture, poultry, and bamboo-based cottage industries",
+        "Check runoff and soil erosion through vegetative contour barriers"
+      ],
+      "shapefile_area_ha": "27422361.64",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 263549.55,
+      "calculated_area_ha": 26354955.23,
+      "calculated_perimeter_km": 5533.86,
+      "centroid": [
+        26.3692,
+        93.1156
+      ],
+      "bbox": [
+        21.9442,
+        87.9913,
+        29.4614,
+        97.4153
+      ]
+    },
+    {
+      "code": 3,
+      "name": "Lower Gangetic Plain Region",
+      "category": "Gangetic",
+      "states": [
+        "West Bengal (plains)",
+        "Eastern Bihar (Kishanganj/Katihar)",
+        "Assam (Brahmaputra plain margin)"
+      ],
+      "avgtmp_jan": "09 \u00b0C To 24 \u00b0C",
+      "avgtmp_jul": "26 \u00b0C To 41 \u00b0C",
+      "avgann_rf": "100 cm To 200 cm",
+      "rainfall_num_min": 1000,
+      "rainfall_num_max": 2000,
+      "temp_jan_min": 9,
+      "temp_jan_max": 24,
+      "temp_jul_min": 26,
+      "temp_jul_max": 41,
+      "soil": "Rich alluvial soil, clayey saline soils in deltaic margins, laterite in western fringe",
+      "soil_types": [
+        "Deltaic Alluvial Soil",
+        "Clayey Saline Soil",
+        "Laterite Fringe Soil"
+      ],
+      "physiography": "Extremely gentle low-gradient alluvial delta and floodplain, oxbow lakes, river meanders, tidal estuaries",
+      "lgp_days": "210\u2013270 days (Humid to moist subhumid)",
+      "major_crops": [
+        "Rice (Aman, Aus, Boro)",
+        "Jute",
+        "Wheat (rabi)",
+        "Maize",
+        "Potato",
+        "Pulses",
+        "Oilseeds"
+      ],
+      "horticulture": [
+        "Mango",
+        "Banana",
+        "Citrus fruits",
+        "Vegetables"
+      ],
+      "pastoral_activities": "Pisciculture (inland riverine, pond fish and brackish water prawn culture) and dairying",
+      "water_resources": "Ganga delta, Hooghly, Damodar, Mayurakshi, dense network of canals and high shallow water table",
+      "constraints": [
+        "Poor drainage, seasonal waterlogging, and extensive marshy bils/taals",
+        "Flood inundation during peak monsoon",
+        "Soil salinity ingress in lower Sunderbans delta"
+      ],
+      "development_strategies": [
+        "Intensification of Boro (summer) rice and high-yield rabi crops",
+        "Pisciculture integration (rice-fish farming)",
+        "Expansion of cold storages for potato and perishable vegetables",
+        "Drainage improvement and flood-proof embankments"
+      ],
+      "shapefile_area_ha": "6375223.66",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 63752.24,
+      "calculated_area_ha": 6375223.66,
+      "calculated_perimeter_km": 6400.48,
+      "centroid": [
+        23.3105,
+        87.9355
+      ],
+      "bbox": [
+        21.5394,
+        86.5605,
+        26.4974,
+        89.0964
+      ]
+    },
+    {
+      "code": 4,
+      "name": "Middle Gangetic Plain Region",
+      "category": "Gangetic",
+      "states": [
+        "Uttar Pradesh (Eastern)",
+        "Bihar"
+      ],
+      "avgtmp_jan": "09 \u00b0C To 24 \u00b0C",
+      "avgtmp_jul": "26 \u00b0C To 41 \u00b0C",
+      "avgann_rf": "100 cm To 200 cm",
+      "rainfall_num_min": 1000,
+      "rainfall_num_max": 2000,
+      "temp_jan_min": 9,
+      "temp_jan_max": 24,
+      "temp_jul_min": 26,
+      "temp_jul_max": 41,
+      "soil": "Fertile alluvial soils, sandy loam to clayey loam, Khadar (newer) and Bhangar (older) alluvium",
+      "soil_types": [
+        "Alluvial Soil",
+        "Khadar (Newer Alluvium)",
+        "Bhangar (Older Alluvium)",
+        "Sandy Clay Loam"
+      ],
+      "physiography": "Gently sloping vast plain formed by the depositional work of the Ganga, Ghaghara, Gandak, Kosi and Son rivers",
+      "lgp_days": "180\u2013210 days (Subhumid moist)",
+      "major_crops": [
+        "Rice",
+        "Maize",
+        "Millets (kharif)",
+        "Wheat",
+        "Gram",
+        "Barley",
+        "Peas",
+        "Mustard",
+        "Potato (rabi)",
+        "Arhar (pigeon pea)"
+      ],
+      "horticulture": [
+        "Mango",
+        "Litchi (Muzaffarpur)",
+        "Guava",
+        "Banana"
+      ],
+      "pastoral_activities": "Cattle and buffalo rearing, dairying, and inland riverine fishery",
+      "water_resources": "Ganga, Gandak, Kosi, Ghaghara, Sone rivers; extensive tube wells and state canal systems",
+      "constraints": [
+        "Recurring devastating floods in North Bihar (Kosi 'Sorrow of Bihar')",
+        "High population pressure resulting in small, fragmented landholdings",
+        "Underutilization of groundwater potential in eastern UP"
+      ],
+      "development_strategies": [
+        "Crop diversification into horticulture and high-value vegetables",
+        "Water management and flood control in North Bihar plains",
+        "Promotion of agro-forestry, silviculture, and dairy cooperatives",
+        "Expansion of tube well electrification for assured irrigation"
+      ],
+      "shapefile_area_ha": "16320770.82",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 163207.71,
+      "calculated_area_ha": 16320770.82,
+      "calculated_perimeter_km": 3591.97,
+      "centroid": [
+        25.9086,
+        84.506
+      ],
+      "bbox": [
+        23.8719,
+        81.0361,
+        28.4038,
+        88.2983
+      ]
+    },
+    {
+      "code": 5,
+      "name": "Upper Gangetic Plain Region",
+      "category": "Gangetic",
+      "states": [
+        "Uttar Pradesh (Central & Western)",
+        "Uttarakhand (Plains)"
+      ],
+      "avgtmp_jan": "10 \u00b0C To 20 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 40 \u00b0C",
+      "avgann_rf": "75 cm To 150 cm",
+      "rainfall_num_min": 750,
+      "rainfall_num_max": 1500,
+      "temp_jan_min": 10,
+      "temp_jan_max": 20,
+      "temp_jul_min": 25,
+      "temp_jul_max": 40,
+      "soil": "Deep, fertile alluvial soils, sandy loam to loam, with calcareous patches",
+      "soil_types": [
+        "Deep Alluvial Soil",
+        "Sandy Loam",
+        "Loam"
+      ],
+      "physiography": "Smooth alluvial plain encompassing the fertile Ganga-Yamuna Doab, Rohilkhand, and Lucknow divisions",
+      "lgp_days": "150\u2013180 days (Subhumid continental)",
+      "major_crops": [
+        "Wheat",
+        "Sugarcane",
+        "Rice",
+        "Millets",
+        "Maize",
+        "Pulses",
+        "Gram",
+        "Barley",
+        "Oilseeds",
+        "Cotton"
+      ],
+      "horticulture": [
+        "Mango (Malihabad)",
+        "Guava",
+        "Commercial potato",
+        "Floriculture"
+      ],
+      "pastoral_activities": "Intensive dairy farming and livestock rearing integrated with crop agriculture",
+      "water_resources": "Upper and Lower Ganga Canals, Eastern Yamuna Canal, dense tube well network",
+      "constraints": [
+        "Soil salinization and alkalinization (usar/reh soils) due to canal over-irrigation",
+        "Falling groundwater tables in tube well concentrated belts",
+        "Sugarcane monoculture stressing water resources"
+      ],
+      "development_strategies": [
+        "Reclamation of saline/alkali soils using gypsum and green manuring",
+        "Promotion of drip irrigation and water-saving in sugarcane",
+        "Encouraging mixed cropping, vegetable clusters, and floriculture",
+        "Modernization of canal distribution networks to reduce transmission losses"
+      ],
+      "shapefile_area_ha": "14120351.49",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 140137.55,
+      "calculated_area_ha": 14013755.09,
+      "calculated_perimeter_km": 2837.33,
+      "centroid": [
+        27.6222,
+        79.5887
+      ],
+      "bbox": [
+        24.8073,
+        77.0962,
+        30.4076,
+        82.6945
+      ]
+    },
+    {
+      "code": 6,
+      "name": "Trans Gangetic Plain Region",
+      "category": "Gangetic",
+      "states": [
+        "Punjab",
+        "Haryana",
+        "Delhi",
+        "Chandigarh",
+        "Rajasthan (Ganganagar)"
+      ],
+      "avgtmp_jan": "10 \u00b0C To 20 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 40 \u00b0C",
+      "avgann_rf": "40 cm To 100 cm (DBF: 065 cm To 125 cm)",
+      "rainfall_num_min": 400,
+      "rainfall_num_max": 1000,
+      "temp_jan_min": 10,
+      "temp_jan_max": 20,
+      "temp_jul_min": 25,
+      "temp_jul_max": 40,
+      "soil": "Productive alluvial soil, sandy loam, calcareous arid alluvium in south-west",
+      "soil_types": [
+        "Alluvial Soil",
+        "Sandy Loam",
+        "Arid Alluvium"
+      ],
+      "physiography": "Flat to gently undulating alluvial plain drained by the Sutlej, Beas, and Ghaggar river systems",
+      "lgp_days": "90\u2013150 days (Semi-arid continental; heavily supplemented by year-round irrigation)",
+      "major_crops": [
+        "Wheat",
+        "Rice",
+        "Cotton",
+        "Sugarcane",
+        "Gram",
+        "Maize",
+        "Millets",
+        "Pulses",
+        "Oilseeds (Mustard)"
+      ],
+      "horticulture": [
+        "Kinnow (citrus)",
+        "Guava",
+        "Peaches",
+        "Suburban commercial vegetables"
+      ],
+      "pastoral_activities": "Advanced dairy farming (Murrah buffaloes, Sahiwal cattle), poultry, and agro-processing",
+      "water_resources": "Bhakra Nangal, Western Yamuna, and Sirhind canals; widespread deep submersible tube wells",
+      "constraints": [
+        "Alarming groundwater depletion (overexploited aquifers in >80% blocks)",
+        "Paddy stubble (parali) burning causing severe air pollution",
+        "Secondary soil salinization and micronutrient deficiencies (zinc, sulfur)",
+        "Paddy-wheat monoculture fatigue"
+      ],
+      "development_strategies": [
+        "Direct Seeding of Rice (DSR) and Happy Seeder in-situ residue management",
+        "Crop diversification away from summer paddy to maize, pulses, and oilseeds",
+        "Strict regulation of groundwater extraction and micro-irrigation subsidies",
+        "Cultivation of high-value vegetables in the vicinity of industrial and urban clusters"
+      ],
+      "shapefile_area_ha": "11201273.34",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 112012.73,
+      "calculated_area_ha": 11201273.34,
+      "calculated_perimeter_km": 2555.18,
+      "centroid": [
+        29.9148,
+        75.5362
+      ],
+      "bbox": [
+        27.771,
+        72.6485,
+        32.3454,
+        77.6051
+      ]
+    },
+    {
+      "code": 7,
+      "name": "Eastern Plateau & Hills Region",
+      "category": "Plateau",
+      "states": [
+        "Jharkhand",
+        "Odisha (Inland)",
+        "Chhattisgarh (Plains)",
+        "West Bengal (Purulia)",
+        "Madhya Pradesh (Eastern)"
+      ],
+      "avgtmp_jan": "10 \u00b0C To 27 \u00b0C",
+      "avgtmp_jul": "26 \u00b0C To 34 \u00b0C",
+      "avgann_rf": "75 cm To 150 cm (DBF: 080 cm To 150 cm)",
+      "rainfall_num_min": 750,
+      "rainfall_num_max": 1500,
+      "temp_jan_min": 10,
+      "temp_jan_max": 27,
+      "temp_jul_min": 26,
+      "temp_jul_max": 34,
+      "soil": "Red and yellow soils, laterite soils on plateaus, mixed with gravelly hill soils",
+      "soil_types": [
+        "Red Soil",
+        "Yellow Soil",
+        "Laterite Soil",
+        "Gravelly Hill Soil"
+      ],
+      "physiography": "Chotanagpur plateau, Garhjat hills, Rajmahal hills, Dandakaranya, undulating terrain with rocky outcrops",
+      "lgp_days": "150\u2013180 days (Subhumid)",
+      "major_crops": [
+        "Rice (rainfed)",
+        "Maize",
+        "Millets (Ragi, Kodo, Kutki)",
+        "Gram",
+        "Oilseeds (Niger, Mustard)",
+        "Tobacco",
+        "Potato"
+      ],
+      "horticulture": [
+        "Mango",
+        "Cashew",
+        "Jackfruit",
+        "Guava",
+        "Tamarind"
+      ],
+      "pastoral_activities": "Livestock rearing in forested upland pastures, lac cultivation, sericulture (Tasar silk)",
+      "water_resources": "Mahanadi, Damodar, Subarnarekha, Brahmani; surface runoff is high due to steep slopes and hard crystalline rocks",
+      "constraints": [
+        "Deficiency in perennial surface water and low groundwater recharge due to hard rock terrain",
+        "High soil acidity, low phosphorus availability, and steep slope erosion",
+        "Predominance of rainfed monocropping with high drought vulnerability"
+      ],
+      "development_strategies": [
+        "Watershed management, check dams, and hillside rainwater harvesting (5% model)",
+        "Introduction of drought-hardy HYV seed varieties and pulses/oilseeds",
+        "Expansion of agro-forestry, horticultural orchards, and tribal non-timber forest product value addition",
+        "Soil liming to correct high soil acidity"
+      ],
+      "shapefile_area_ha": "39947870.97",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 387059.83,
+      "calculated_area_ha": 38705982.79,
+      "calculated_perimeter_km": 5558.1,
+      "centroid": [
+        21.6355,
+        83.0905
+      ],
+      "bbox": [
+        17.7901,
+        78.8012,
+        24.8271,
+        87.9185
+      ]
+    },
+    {
+      "code": 8,
+      "name": "Central Plateau & Hills Region",
+      "category": "Plateau",
+      "states": [
+        "Madhya Pradesh",
+        "Rajasthan (South-Eastern)",
+        "Uttar Pradesh (Bundelkhand)"
+      ],
+      "avgtmp_jan": "10 \u00b0C To 25 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 40 \u00b0C",
+      "avgann_rf": "50 cm To 100 cm",
+      "rainfall_num_min": 500,
+      "rainfall_num_max": 1000,
+      "temp_jan_min": 10,
+      "temp_jan_max": 25,
+      "temp_jul_min": 25,
+      "temp_jul_max": 40,
+      "soil": "Mixed red and black soils, shallow black soil, sandy alluvium in river valleys",
+      "soil_types": [
+        "Mixed Red and Black Soil",
+        "Medium Black Soil",
+        "Sandy Loam"
+      ],
+      "physiography": "Bundelkhand upland, Baghelkhand, Bhander plateau, Malwa plateau, Vindhyachal and Satpura ranges",
+      "lgp_days": "90\u2013150 days (Semi-arid dry)",
+      "major_crops": [
+        "Soybean",
+        "Wheat",
+        "Gram",
+        "Millets (Jowar, Bajra)",
+        "Pulses (Arhar, Urad)",
+        "Cotton",
+        "Sunflower",
+        "Mustard"
+      ],
+      "horticulture": [
+        "Orange (Nagpur mandarin belt fringe)",
+        "Guava",
+        "Aonla",
+        "Coriander",
+        "Garlic"
+      ],
+      "pastoral_activities": "Extensive cattle, goat, and sheep grazing; rural dairying",
+      "water_resources": "Chambal, Betwa, Ken, Narmada, Son rivers; non-perennial seasonal tributaries",
+      "constraints": [
+        "Chronic water scarcity and frequent droughts (Bundelkhand drought syndrome)",
+        "Severe ravine formation and gully erosion along Chambal and Yamuna basins",
+        "Shallow soil depth with low moisture retention in rocky uplands"
+      ],
+      "development_strategies": [
+        "Water conservation via farm ponds, percolation tanks, check dams, and micro-irrigation (drip/sprinkler)",
+        "Adoption of dryland farming packages and drought-resistant pulse/oilseed cultivars",
+        "Reclamation and stabilization of Chambal ravines through afforestation and bamboo planting",
+        "Dairy and goat rearing development as risk-hedging enterprise"
+      ],
+      "shapefile_area_ha": "37466580.40",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 354151.64,
+      "calculated_area_ha": 35415164.11,
+      "calculated_perimeter_km": 5896.02,
+      "centroid": [
+        24.6902,
+        77.4775
+      ],
+      "bbox": [
+        21.3572,
+        72.2452,
+        28.2352,
+        82.3067
+      ]
+    },
+    {
+      "code": 9,
+      "name": "Western Plateau & Hills Region",
+      "category": "Plateau",
+      "states": [
+        "Maharashtra",
+        "Madhya Pradesh (South-Western)",
+        "Rajasthan (Southern fringe)"
+      ],
+      "avgtmp_jan": "12 \u00b0C To 24 \u00b0C",
+      "avgtmp_jul": "24 \u00b0C To 41 \u00b0C",
+      "avgann_rf": "25 cm To 75 cm (DBF: 050 cm To 100 cm)",
+      "rainfall_num_min": 250,
+      "rainfall_num_max": 750,
+      "temp_jan_min": 12,
+      "temp_jan_max": 24,
+      "temp_jul_min": 24,
+      "temp_jul_max": 41,
+      "soil": "Black cotton soil (Regur soil) derived from Deccan basalt trap, medium to deep vertisols",
+      "soil_types": [
+        "Black Cotton Soil (Regur)",
+        "Vertisols",
+        "Medium Black Soil"
+      ],
+      "physiography": "Deccan lava plateau, Sahyadri rain-shadow uplands, undulating plains of Godavari, Bhima, and Krishna",
+      "lgp_days": "90\u2013150 days (Semi-arid rain-shadow)",
+      "major_crops": [
+        "Jowar (Sorghum)",
+        "Cotton",
+        "Sugarcane (irrigated)",
+        "Soybean",
+        "Bajra",
+        "Wheat",
+        "Gram",
+        "Pigeon pea (Tur)"
+      ],
+      "horticulture": [
+        "Grapes (Nashik)",
+        "Pomegranate (Solapur)",
+        "Oranges (Vidarbha)",
+        "Onions",
+        "Bananas (Jalgaon)"
+      ],
+      "pastoral_activities": "Cooperative dairying, poultry farming, and sheep rearing",
+      "water_resources": "Upper Godavari, Bhima, Krishna rivers; heavily dependent on wells and storage dams",
+      "constraints": [
+        "Rain-shadow dryland vulnerability; only ~12-15% cultivated area has assured irrigation",
+        "Water-intensive crops (sugarcane) depleting regional water balances in drought-prone Marathwada/Vidarbha",
+        "Deep cracking in vertisols during dry periods; waterlogging when saturated"
+      ],
+      "development_strategies": [
+        "Universal adoption of water-saving micro-irrigation (drip mandatory for sugarcane)",
+        "Restructuring cropping pattern towards coarse grains (Jowar, Bajra) and drought-tolerant pulses",
+        "Watershed development and watershed-scale contour trenching",
+        "Strengthening dryland horticulture and cold storage logistics"
+      ],
+      "shapefile_area_ha": "33075253.93",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 313244.75,
+      "calculated_area_ha": 31324474.77,
+      "calculated_perimeter_km": 5753.4,
+      "centroid": [
+        20.3709,
+        75.8368
+      ],
+      "bbox": [
+        15.7415,
+        73.2498,
+        25.0502,
+        79.6609
+      ]
+    },
+    {
+      "code": 10,
+      "name": "Southern Plateau & Hills Region",
+      "category": "Plateau",
+      "states": [
+        "Andhra Pradesh (Inland)",
+        "Karnataka (Inland)",
+        "Tamil Nadu (Uplands)",
+        "Telangana"
+      ],
+      "avgtmp_jan": "13 \u00b0C To 25 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 40 \u00b0C",
+      "avgann_rf": "50 cm To 100 cm",
+      "rainfall_num_min": 500,
+      "rainfall_num_max": 1000,
+      "temp_jan_min": 13,
+      "temp_jan_max": 25,
+      "temp_jul_min": 25,
+      "temp_jul_max": 40,
+      "soil": "Red loamy soils, red sandy soils, mixed red and black soils",
+      "soil_types": [
+        "Red Loamy Soil",
+        "Red Sandy Soil",
+        "Mixed Red-Black Soil"
+      ],
+      "physiography": "Deccan peninsular plateau, Telangana plateau, Rayalaseema, Karnataka plateau, Mysore plateau, Eastern Ghats ridges",
+      "lgp_days": "90\u2013150 days (Semi-arid to dry subhumid)",
+      "major_crops": [
+        "Millets (Ragi, Jowar, Bajra)",
+        "Groundnut",
+        "Cotton",
+        "Pulses (Red gram, Green gram)",
+        "Rice (irrigated)",
+        "Sunflower",
+        "Castor"
+      ],
+      "horticulture": [
+        "Mango",
+        "Papaya",
+        "Coffee (Coorg/Chikmagalur)",
+        "Cardamom",
+        "Chilies",
+        "Turmeric"
+      ],
+      "pastoral_activities": "Sheep, goat, and dairy cattle rearing; poultry farming (Namakkal poultry belt)",
+      "water_resources": "Krishna, Tungabhadra, Pennar, Kaveri rivers; extensive historical tank irrigation systems",
+      "constraints": [
+        "Semi-arid climate with high evapotranspiration and frequent droughts in Rayalaseema and North Karnataka",
+        "Depletion of groundwater and siltation of traditional irrigation tanks",
+        "Coarse-textured red soils with low moisture-holding capacity"
+      ],
+      "development_strategies": [
+        "Restoration and de-silting of traditional village cascade tanks (e.g. Mission Kakatiya)",
+        "Promotion of drought-resilient millets (Shree Anna: Ragi, Jowar) and oilseeds",
+        "Micro-irrigation and precision farming in horticulture and commercial crops",
+        "Poultry and livestock integration with dryland farming systems"
+      ],
+      "shapefile_area_ha": "39478768.99",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 385045.86,
+      "calculated_area_ha": 38504585.7,
+      "calculated_perimeter_km": 5795.5,
+      "centroid": [
+        15.1635,
+        77.7123
+      ],
+      "bbox": [
+        9.518,
+        74.0891,
+        19.9165,
+        81.803
+      ]
+    },
+    {
+      "code": 11,
+      "name": "East Coast Plains & Hills Region",
+      "category": "Coastal",
+      "states": [
+        "Andhra Pradesh (Coastal)",
+        "Odisha (Coastal)",
+        "Puducherry",
+        "Tamil Nadu (Coastal)"
+      ],
+      "avgtmp_jan": "20 \u00b0C To 30 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 35 \u00b0C",
+      "avgann_rf": "75 cm To 150 cm",
+      "rainfall_num_min": 750,
+      "rainfall_num_max": 1500,
+      "temp_jan_min": 20,
+      "temp_jan_max": 30,
+      "temp_jul_min": 25,
+      "temp_jul_max": 35,
+      "soil": "Alluvial, coastal sands, deltaic clay, loam, with patches of alkaline soils",
+      "soil_types": [
+        "Coastal Alluvial Soil",
+        "Deltaic Clay",
+        "Marine Sand",
+        "Saline/Alkaline Patches"
+      ],
+      "physiography": "Coastal plain along the Bay of Bengal extending from Northern Circars to the Coromandel Coast and Kanniyakumari, dominated by extensive deltas",
+      "lgp_days": "150\u2013210 days (Subhumid marine; bimodal rainfall with heavy North-East Monsoon in south)",
+      "major_crops": [
+        "Rice (Kharif and Rabi)",
+        "Jute",
+        "Tobacco (Guntur)",
+        "Sugarcane",
+        "Maize",
+        "Millets",
+        "Groundnut",
+        "Oilseeds"
+      ],
+      "horticulture": [
+        "Cashew",
+        "Coconut",
+        "Banana",
+        "Mango",
+        "Betelvine"
+      ],
+      "pastoral_activities": "Brackish water aquaculture (shrimp/prawn farming), marine and deltaic capture fisheries, poultry",
+      "water_resources": "Mahanadi, Godavari, Krishna, and Kaveri deltas; extensive canal systems and coastal lagoons (Chilika, Pulicat)",
+      "constraints": [
+        "Recurrent severe tropical cyclones and storm surges from the Bay of Bengal",
+        "Coastal salinity ingress and alkaline soil degradation in delta tails",
+        "Failure or irregularity of the North-East Monsoon in the Coromandel tract"
+      ],
+      "development_strategies": [
+        "Discouraging monoculture of paddy and promoting crop diversification into pulses and oilseeds",
+        "Construction of shelterbelts, mangrove restoration, and cyclone-resilient farm infrastructure",
+        "Scientific regulation of aquaculture to prevent salinization of adjoining freshwater aquifers",
+        "Improvement in drainage networks to alleviate monsoon coastal waterlogging"
+      ],
+      "shapefile_area_ha": "20288678.99",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 202886.79,
+      "calculated_area_ha": 20288679.0,
+      "calculated_perimeter_km": 7436.83,
+      "centroid": [
+        15.418,
+        81.2599
+      ],
+      "bbox": [
+        8.1418,
+        77.1493,
+        21.9779,
+        87.4902
+      ]
+    },
+    {
+      "code": 12,
+      "name": "West Coast Plains & Ghats Region",
+      "category": "Coastal",
+      "states": [
+        "Goa",
+        "Karnataka (Coastal)",
+        "Kerala",
+        "Maharashtra (Konkan)",
+        "Tamil Nadu (Nilgiris/Kanyakumari)"
+      ],
+      "avgtmp_jan": "18 \u00b0C To 28 \u00b0C",
+      "avgtmp_jul": "25 \u00b0C To 32 \u00b0C",
+      "avgann_rf": "200 cm To 400 cm (Exceeds 200 cm across region; >300 cm on Ghat slopes)",
+      "rainfall_num_min": 2000,
+      "rainfall_num_max": 4000,
+      "temp_jan_min": 18,
+      "temp_jan_max": 28,
+      "temp_jul_min": 25,
+      "temp_jul_max": 32,
+      "soil": "Laterite soils on terraces and hills, rich alluvial soils in river valleys and coastal strips",
+      "soil_types": [
+        "Laterite Soil",
+        "Coastal Alluvium",
+        "Hill Forest Soil"
+      ],
+      "physiography": "Narrow coastal plain (Konkan, Kanara, Malabar) flanked by the steep escarpment of the Western Ghats (Sahyadris)",
+      "lgp_days": "210\u2013300+ days (Perhumid to humid tropical)",
+      "major_crops": [
+        "Rice",
+        "Coconut",
+        "Spices (Black Pepper, Cardamom, Clove, Nutmeg, Cinnamon)",
+        "Rubber",
+        "Tea",
+        "Coffee",
+        "Cashew",
+        "Arecanut",
+        "Oil Palm"
+      ],
+      "horticulture": [
+        "Alphonso Mango (Ratnagiri)",
+        "Banana",
+        "Pineapple",
+        "Jackfruit"
+      ],
+      "pastoral_activities": "Dairy farming, duck farming in backwaters, deep-sea marine fisheries, brackish water aquaculture (pokkali rice-fish systems)",
+      "water_resources": "Numerous short, swift west-flowing rivers (Zuari, Mandovi, Sharavathi, Netravati, Periyar, Bharatapuzha), backwaters (kayals)",
+      "constraints": [
+        "Severe soil acidity, intense nutrient leaching, and rapid runoff due to torrential rainfall",
+        "Soil erosion and frequent landslides along the Western Ghats escarpment",
+        "Small, fragmented home-garden holdings with high labor costs"
+      ],
+      "development_strategies": [
+        "Multi-tier home-garden agroforestry systems combining spices, coconut, and fruit trees",
+        "Value addition and geographical indication (GI) branding for plantation and spice crops",
+        "Upgrading drainage and coastal protection against sea erosion",
+        "Expansion of eco-friendly brackish water prawn and cage fish culture"
+      ],
+      "shapefile_area_ha": "11902888.66",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 113481.4,
+      "calculated_area_ha": 11348140.03,
+      "calculated_perimeter_km": 5264.61,
+      "centroid": [
+        13.8102,
+        75.0897
+      ],
+      "bbox": [
+        8.0778,
+        72.6429,
+        20.2272,
+        77.5911
+      ]
+    },
+    {
+      "code": 13,
+      "name": "Gujarat Plains & Hills Region",
+      "category": "Arid & Semi-Arid",
+      "states": [
+        "Gujarat",
+        "Dadra & Nagar Haveli",
+        "Daman & Diu"
+      ],
+      "avgtmp_jan": "15 \u00b0C To 25 \u00b0C",
+      "avgtmp_jul": "28 \u00b0C To 42 \u00b0C",
+      "avgann_rf": "50 cm To 100 cm",
+      "rainfall_num_min": 500,
+      "rainfall_num_max": 1000,
+      "temp_jan_min": 15,
+      "temp_jan_max": 25,
+      "temp_jul_min": 28,
+      "temp_jul_max": 42,
+      "soil": "Regur (black) soils in plateau tracts, alluvial soils in central/coastal plains, red and yellow soils in Jamnagar, sandy arid soils in northern fringe",
+      "soil_types": [
+        "Regur (Black Soil)",
+        "Alluvial Soil",
+        "Red and Yellow Soil",
+        "Sandy Loam"
+      ],
+      "physiography": "Kathiawar peninsula (Saurashtra), fertile plains of Mahi, Sabarmati, and Narmada, Girnar and Kutch uplands, Rann salt flats",
+      "lgp_days": "90\u2013150 days (Arid to semi-arid dry)",
+      "major_crops": [
+        "Cotton",
+        "Groundnut",
+        "Castor (world's top producer)",
+        "Wheat (irrigated rabi)",
+        "Rice",
+        "Millets (Bajra, Jowar)",
+        "Tobacco (Anand/Kheda)",
+        "Sesamum",
+        "Pulses"
+      ],
+      "horticulture": [
+        "Kesar Mango",
+        "Dates (Kutch)",
+        "Cumin",
+        "Fennel",
+        "Pomegranate",
+        "Banana"
+      ],
+      "pastoral_activities": "Pioneering cooperative dairy industry (AMUL / Anand Model), Gir and Kankrej cattle rearing, coastal fishing",
+      "water_resources": "Sardar Sarovar Dam (Narmada Canal Project), Sabarmati, Mahi, Tapi, deep tube wells in North Gujarat",
+      "constraints": [
+        "Low and erratic rainfall with frequent drought cycles in Saurashtra and Kutch",
+        "Severe groundwater salinity and seawater intrusion in coastal aquifers",
+        "Fluoride contamination and deep water table exhaustion"
+      ],
+      "development_strategies": [
+        "Comprehensive surface water management via Sardar Sarovar canal network and check dams (Sujalam Sufalam)",
+        "Rainwater harvesting and artificial groundwater recharge wells",
+        "Expansion of drip/micro-irrigation for cash crops (cotton, groundnut, castor)",
+        "Marine aquaculture and value addition in coastal zones"
+      ],
+      "shapefile_area_ha": "19403883.33",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 179412.62,
+      "calculated_area_ha": 17941261.95,
+      "calculated_perimeter_km": 7249.65,
+      "centroid": [
+        22.6837,
+        71.5892
+      ],
+      "bbox": [
+        20.0519,
+        68.1862,
+        24.7085,
+        74.4766
+      ]
+    },
+    {
+      "code": 14,
+      "name": "Western Dry Region",
+      "category": "Arid & Semi-Arid",
+      "states": [
+        "Rajasthan (Western 9 districts west of Aravallis: Jaisalmer, Bikaner, Barmer, Jodhpur, Nagaur, Churu, etc.)"
+      ],
+      "avgtmp_jan": "05 \u00b0C To 22 \u00b0C",
+      "avgtmp_jul": "28 \u00b0C To 45 \u00b0C",
+      "avgann_rf": "Below 25 cm (DBF: < 25 cm to 40 cm)",
+      "rainfall_num_min": 100,
+      "rainfall_num_max": 350,
+      "temp_jan_min": 5,
+      "temp_jan_max": 22,
+      "temp_jul_min": 28,
+      "temp_jul_max": 45,
+      "soil": "Desert soils, sandy soils with low organic matter, high alkalinity, shifting dunes",
+      "soil_types": [
+        "Desert Sandy Soil",
+        "Aridisols",
+        "Saline/Alkaline Soil"
+      ],
+      "physiography": "Thar Desert, shifting sand dunes (dhrians), flat playa depressions, arid plains west of the Aravalli range",
+      "lgp_days": "Extremely short (<90 days; typically 60\u201380 days under rainfed conditions)",
+      "major_crops": [
+        "Bajra (Pearl Millet)",
+        "Jowar",
+        "Moth bean",
+        "Moong (Green gram)",
+        "Guar (Cluster bean)",
+        "Wheat (irrigated)",
+        "Gram",
+        "Mustard (irrigated)"
+      ],
+      "horticulture": [
+        "Date palm",
+        "Ber (Jujube)",
+        "Pomegranate",
+        "Gonda (Cordia)"
+      ],
+      "pastoral_activities": "Nomadic and semi-nomadic pastoralism: camel, sheep (Marwari, Chokla wool), and Tharparkar cattle rearing",
+      "water_resources": "Indira Gandhi Canal (IGNP) bringing Himalayan waters from Harike Barrage; traditional rainwater kunds/tankas",
+      "constraints": [
+        "Extreme aridity, sparse and unreliable rainfall, and scorching summer temperatures up to 48-50\u00b0C",
+        "Severe wind erosion and shifting sand dunes engulfing farmlands",
+        "Waterlogging and secondary soil salinization in canal command areas due to impermeable gypsum hardpan"
+      ],
+      "development_strategies": [
+        "Water management and prevention of waterlogging in the Indira Gandhi Canal command area",
+        "Shelterbelt plantation, sand dune stabilization with Acacia tortilis and Cenchrus ciliaris grass",
+        "Promotion of drought-hardy pulses (Moth, Guar) and Shree Anna millets (Bajra)",
+        "Adoption of solar-powered drip irrigation and desert greenhouse farming"
+      ],
+      "shapefile_area_ha": "17578278.47",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 169623.91,
+      "calculated_area_ha": 16962390.78,
+      "calculated_perimeter_km": 2608.39,
+      "centroid": [
+        27.0518,
+        72.696
+      ],
+      "bbox": [
+        24.6074,
+        69.4844,
+        29.0517,
+        76.1011
+      ]
+    },
+    {
+      "code": 15,
+      "name": "Island region",
+      "category": "Islands",
+      "states": [
+        "Andaman & Nicobar Islands",
+        "Lakshadweep Islands"
+      ],
+      "avgtmp_jan": "25 \u00b0C",
+      "avgtmp_jul": "30 \u00b0C",
+      "avgann_rf": "Above 300 cm (DBF: 300 cm)",
+      "rainfall_num_min": 3000,
+      "rainfall_num_max": 3500,
+      "temp_jan_min": 24,
+      "temp_jan_max": 26,
+      "temp_jul_min": 29,
+      "temp_jul_max": 31,
+      "soil": "Sandy along coral coast, to clayey loam in valleys and lower slopes, rich in organic matter",
+      "soil_types": [
+        "Coastal Sandy Soil",
+        "Coral Alluvium",
+        "Valley Clay Loam",
+        "Humus-rich Forest Soil"
+      ],
+      "physiography": "Archipelagos in Bay of Bengal (Andaman & Nicobar: submerged volcanic/folded mountain crests) and Arabian Sea (Lakshadweep: coral atolls)",
+      "lgp_days": "Perhumid (>300 days; uniform equatorial maritime climate)",
+      "major_crops": [
+        "Coconut (covers nearly 50% of cropped area)",
+        "Arecanut",
+        "Rice (valleys)",
+        "Maize",
+        "Millets",
+        "Pulses",
+        "Cassava (Tapioca)",
+        "Turmeric"
+      ],
+      "horticulture": [
+        "Spices (Clove, Nutmeg, Cinnamon, Black Pepper)",
+        "Papaya",
+        "Banana",
+        "Pineapple"
+      ],
+      "pastoral_activities": "Deep-sea tuna and oceanic pelagic fisheries, crab and lobster farming, poultry and piggery",
+      "water_resources": "Heavy equatorial monsoon precipitation; absence of large rivers; dependent on freshwater lens and rain harvesting",
+      "constraints": [
+        "Geographic isolation, high logistics and shipping costs to mainland markets",
+        "Ecologically fragile coral reefs, island biodiversity, and vulnerability to sea-level rise and tsunamis",
+        "Limited arable land availability with strict forest conservation mandates"
+      ],
+      "development_strategies": [
+        "Multi-purpose deep-sea fishing fleet development and cold chain processing for oceanic tuna export",
+        "Value addition to organic coconut (virgin coconut oil, coir, desiccated coconut)",
+        "Expansion of high-value shade spices (vanilla, black pepper, nutmeg) in coconut groves",
+        "Rainwater harvesting and solar desalination for island water security"
+      ],
+      "shapefile_area_ha": "824766.48",
+      "source_attribution": {
+        "spatial_source": "User-supplied GIS shapefile (Agroclimatic_regions.shp)",
+        "classification_source": "Planning Commission of India & NRSA (1989)",
+        "literature_source": "e-PG Pathshala Module RG-38 & UPSC Study Material",
+        "provenance_badge": "SUPPLIED GIS DATA"
+      },
+      "calculated_area_km2": 8247.66,
+      "calculated_area_ha": 824766.48,
+      "calculated_perimeter_km": 3901.1,
+      "centroid": [
+        11.2065,
+        91.3199
+      ],
+      "bbox": [
+        6.756,
+        71.7315,
+        13.6758,
+        94.2758
+      ]
+    }
+  ],
+  "aez_regions": [
+    {
+      "code": 1,
+      "name": "Western Himalayas, Cold Arid Eco-Region",
+      "raw_physio": "WESTERN HIMALAYAS  COLD ARID ECO-REGION",
+      "bioclimate": "Cold Arid",
+      "soil_order": "Shallow Skeletal Soils",
+      "lgp_days": "<90 days",
+      "lgp_class": "<90",
+      "physiography": "Western Himalayas (Ladakh plateau, Karakoram, Zanskar)",
+      "states": [
+        "Ladakh",
+        "Jammu & Kashmir (Northern)",
+        "Himachal Pradesh (Lahaul & Spiti)"
+      ],
+      "crops": [
+        "Barley",
+        "Wheat",
+        "Alfalfa",
+        "Apples (lower valleys)",
+        "Apricots"
+      ],
+      "constraints": [
+        "Severe cold aridity, short frost-free period, skeletal soils"
+      ],
+      "area_sqkm_dbf": 80785.51,
+      "calculated_area_km2": 130876.48,
+      "calculated_area_ha": 13087647.57,
+      "calculated_perimeter_km": 2795.58,
+      "centroid": [
+        35.0477,
+        77.1146
+      ],
+      "bbox": [
+        32.3378,
+        72.5295,
+        37.0783,
+        80.3286
+      ]
+    },
+    {
+      "code": 2,
+      "name": "Western Plain, Kachchh and Part of Kathiawar Peninsula, Hot Arid Eco-Region",
+      "raw_physio": "WESTERN PLAIN  KACHCHH AND PART OF KATHIAWAR PENINSULA HOT ARID ECO-REGION",
+      "bioclimate": "Hot Arid",
+      "soil_order": "Desert and Saline Soils",
+      "lgp_days": "<90 days",
+      "lgp_class": "<90",
+      "physiography": "Western Plain (Thar Desert) and Kathiawar Peninsula",
+      "states": [
+        "Rajasthan (Western)",
+        "Gujarat (Kutch, Jamnagar)"
+      ],
+      "crops": [
+        "Pearl Millet (Bajra)",
+        "Cluster bean (Guar)",
+        "Moth bean",
+        "Wheat (irrigated)",
+        "Mustard"
+      ],
+      "constraints": [
+        "Severe droughtiness, high soil salinity, moving sand dunes"
+      ],
+      "area_sqkm_dbf": 131613.4,
+      "calculated_area_km2": 313513.37,
+      "calculated_area_ha": 31351336.5,
+      "calculated_perimeter_km": 6391.22,
+      "centroid": [
+        26.4715,
+        72.5289
+      ],
+      "bbox": [
+        21.7552,
+        68.1862,
+        30.8171,
+        76.4186
+      ]
+    },
+    {
+      "code": 3,
+      "name": "Karnataka Plateau (Rayalaseema as Inclusion), Hot Semi-Arid Eco-Region",
+      "raw_physio": "KARNATAKA PLATEAU (RAYALSEEMA AS INCLUSION)",
+      "bioclimate": "Hot Semi-Arid",
+      "soil_order": "Red and Black Soils",
+      "lgp_days": "90\u2013150 days",
+      "lgp_class": "90-150",
+      "physiography": "Deccan Plateau (Karnataka plateau & Rayalaseema)",
+      "states": [
+        "Karnataka",
+        "Andhra Pradesh (Rayalaseema)"
+      ],
+      "crops": [
+        "Millets (Ragi, Jowar)",
+        "Groundnut",
+        "Sunflower",
+        "Cotton",
+        "Pulses"
+      ],
+      "constraints": [
+        "Prolonged dry spells, soil erosion, shallow red soils"
+      ],
+      "area_sqkm_dbf": 47540.89,
+      "calculated_area_km2": 48522.03,
+      "calculated_area_ha": 4852202.56,
+      "calculated_perimeter_km": 1396.62,
+      "centroid": [
+        15.1136,
+        76.7213
+      ],
+      "bbox": [
+        13.6834,
+        75.0703,
+        17.0095,
+        78.4461
+      ]
+    },
+    {
+      "code": 4,
+      "name": "Northern Plain (and Central Highlands) including Aravallis, Hot Semi-Arid Eco-Region",
+      "raw_physio": "NORTHERN PLAIN (AND CENTRAL HIGHLANDS) INCLUDING ARAVALLIS  HOT SEMI-ARID EGO-REGION",
+      "bioclimate": "Hot Semi-Arid",
+      "soil_order": "Alluvium-derived Soils",
+      "lgp_days": "90\u2013150 days",
+      "lgp_class": "90-150",
+      "physiography": "Northern Indo-Gangetic Plain and Aravalli Hills",
+      "states": [
+        "Punjab",
+        "Haryana",
+        "Rajasthan (Eastern)",
+        "Uttar Pradesh (Western fringe)"
+      ],
+      "crops": [
+        "Wheat",
+        "Mustard",
+        "Cotton",
+        "Pearl Millet",
+        "Gram",
+        "Sugarcane"
+      ],
+      "constraints": [
+        "Groundwater depletion, secondary soil salinity, periodic droughts"
+      ],
+      "area_sqkm_dbf": 116243.74,
+      "calculated_area_km2": 300667.47,
+      "calculated_area_ha": 30066747.13,
+      "calculated_perimeter_km": 5782.91,
+      "centroid": [
+        26.5618,
+        77.238
+      ],
+      "bbox": [
+        22.1489,
+        71.0535,
+        31.5641,
+        83.1766
+      ]
+    },
+    {
+      "code": 5,
+      "name": "Central Highlands (Malwa), Gujarat Plain and Kathiawar Peninsula, Semi-Arid Eco-Region",
+      "raw_physio": "CENTRAL HIGHLANDS ( MALWA )  GUJARAT PLAIN AND KATHIAWAR PENINSULA  SEMI-ARID ECO-REGION",
+      "bioclimate": "Hot Semi-Arid",
+      "soil_order": "Medium and Deep Black Soils",
+      "lgp_days": "90\u2013150 days",
+      "lgp_class": "90-150",
+      "physiography": "Central Highlands (Malwa plateau) and Gujarat Plain",
+      "states": [
+        "Madhya Pradesh (Western)",
+        "Gujarat (Central & Plains)"
+      ],
+      "crops": [
+        "Cotton",
+        "Groundnut",
+        "Soybean",
+        "Sorghum",
+        "Wheat"
+      ],
+      "constraints": [
+        "High shrink-swell black soils, erratic onset of monsoon"
+      ],
+      "area_sqkm_dbf": 5613.88,
+      "calculated_area_km2": 169686.19,
+      "calculated_area_ha": 16968618.82,
+      "calculated_perimeter_km": 4006.33,
+      "centroid": [
+        22.8793,
+        74.2673
+      ],
+      "bbox": [
+        20.6901,
+        69.3657,
+        25.8594,
+        77.4238
+      ]
+    },
+    {
+      "code": 6,
+      "name": "Deccan Plateau, Hot Semi-Arid Eco-Region",
+      "raw_physio": "DECCAN PLATU  HOT SEMI-ARID ECO-REGION",
+      "bioclimate": "Hot Semi-Arid",
+      "soil_order": "Shallow and Medium Black Soils",
+      "lgp_days": "90\u2013150 days",
+      "lgp_class": "90-150",
+      "physiography": "Deccan Trap lava plateau",
+      "states": [
+        "Maharashtra (Central & Western plateau)",
+        "Karnataka (Northern fringe)"
+      ],
+      "crops": [
+        "Sorghum (Jowar)",
+        "Cotton",
+        "Pigeon pea (Tur)",
+        "Soybean",
+        "Sugarcane (irrigated)"
+      ],
+      "constraints": [
+        "Severe rain-shadow dry spells, moisture stress in shallow soils"
+      ],
+      "area_sqkm_dbf": 117936.9,
+      "calculated_area_km2": 293324.38,
+      "calculated_area_ha": 29332438.0,
+      "calculated_perimeter_km": 3510.5,
+      "centroid": [
+        18.7118,
+        76.0234
+      ],
+      "bbox": [
+        14.3219,
+        73.4359,
+        21.7228,
+        79.9798
+      ]
+    },
+    {
+      "code": 7,
+      "name": "Deccan Plateau (Telangana) and Eastern Ghats, Hot Semi-Arid Eco-Region",
+      "raw_physio": "DECCAN PLATEAU  (TELANGANA) AND EASTERN GHATS  HOT SEMI ARID ECO-REGION",
+      "bioclimate": "Hot Semi-Arid",
+      "soil_order": "Red and Black Soils",
+      "lgp_days": "90\u2013150 days",
+      "lgp_class": "90-150",
+      "physiography": "Telangana Plateau and Eastern Ghats ridges",
+      "states": [
+        "Telangana",
+        "Andhra Pradesh"
+      ],
+      "crops": [
+        "Cotton",
+        "Rice (tank irrigated)",
+        "Maize",
+        "Groundnut",
+        "Chilies"
+      ],
+      "constraints": [
+        "Tank siltation, drought vulnerability, coarse shallow red soils"
+      ],
+      "area_sqkm_dbf": 38225.24,
+      "calculated_area_km2": 157417.87,
+      "calculated_area_ha": 15741786.71,
+      "calculated_perimeter_km": 2218.62,
+      "centroid": [
+        16.614,
+        79.1434
+      ],
+      "bbox": [
+        13.7362,
+        76.9741,
+        19.0714,
+        81.7386
+      ]
+    },
+    {
+      "code": 8,
+      "name": "Eastern Ghats, Tamil Nadu Uplands and Deccan (Karnataka) Plateau, Hot Semi-Arid Eco-Region",
+      "raw_physio": "EASTERN GHATS AND TAMIL NADU UPLANDS AND DECCAN (K ARNATAKA) PLATEAU  HOT SEMI-ARID ECO-REGION",
+      "bioclimate": "Hot Semi-Arid",
+      "soil_order": "Red Loamy Soils",
+      "lgp_days": "90\u2013150 days",
+      "lgp_class": "90-150",
+      "physiography": "Tamil Nadu Uplands, Mysore plateau, Eastern Ghats",
+      "states": [
+        "Tamil Nadu",
+        "Karnataka (Southern)",
+        "Andhra Pradesh (Southern)"
+      ],
+      "crops": [
+        "Finger Millet (Ragi)",
+        "Groundnut",
+        "Pulses",
+        "Sorghum",
+        "Cotton"
+      ],
+      "constraints": [
+        "Variable rainfall, high soil erosion on slopes, low nutrient retention"
+      ],
+      "area_sqkm_dbf": 87960.27,
+      "calculated_area_km2": 180622.71,
+      "calculated_area_ha": 18062271.01,
+      "calculated_perimeter_km": 2682.58,
+      "centroid": [
+        11.9754,
+        77.8125
+      ],
+      "bbox": [
+        8.4003,
+        75.0975,
+        14.7981,
+        80.0896
+      ]
+    },
+    {
+      "code": 9,
+      "name": "Northern Plain, Hot Subhumid (Dry) Eco-Region",
+      "raw_physio": "NORTHERN PLAIN  HOT SUBHUMID (DRY) ECO-REGION",
+      "bioclimate": "Hot Subhumid (Dry)",
+      "soil_order": "Alluvium-derived Soils",
+      "lgp_days": "150\u2013180 days",
+      "lgp_class": "150-180",
+      "physiography": "Upper and Middle Indo-Gangetic Plain",
+      "states": [
+        "Uttar Pradesh (Central & Northern)",
+        "Bihar (Western fringe)"
+      ],
+      "crops": [
+        "Wheat",
+        "Rice",
+        "Sugarcane",
+        "Potato",
+        "Mustard",
+        "Maize"
+      ],
+      "constraints": [
+        "Alkalinity in patches, seasonal waterlogging, over-irrigation"
+      ],
+      "area_sqkm_dbf": 35663.85,
+      "calculated_area_km2": 117167.69,
+      "calculated_area_ha": 11716769.33,
+      "calculated_perimeter_km": 3587.0,
+      "centroid": [
+        27.7036,
+        80.6814
+      ],
+      "bbox": [
+        24.2869,
+        74.486,
+        32.2196,
+        86.0573
+      ]
+    },
+    {
+      "code": 10,
+      "name": "Central Highlands (Malwa and Bundelkhand), Hot Subhumid (Dry) Eco-Region",
+      "raw_physio": "CENTRAL HIGHLANDS (MALWA AND BUNDELKHAND)  HOT SUBHUMID (DRY) ECO-REGION",
+      "bioclimate": "Hot Subhumid (Dry)",
+      "soil_order": "Medium and Deep Black Soils",
+      "lgp_days": "150\u2013180 days",
+      "lgp_class": "150-180",
+      "physiography": "Central Highlands (Malwa, Bundelkhand, Vindhyan scarplands)",
+      "states": [
+        "Madhya Pradesh",
+        "Uttar Pradesh (Bundelkhand)"
+      ],
+      "crops": [
+        "Soybean",
+        "Wheat",
+        "Gram",
+        "Sorghum",
+        "Pigeon pea"
+      ],
+      "constraints": [
+        "Gully erosion, acute summer water shortage, high runoff"
+      ],
+      "area_sqkm_dbf": 58789.18,
+      "calculated_area_km2": 231549.83,
+      "calculated_area_ha": 23154983.34,
+      "calculated_perimeter_km": 3691.23,
+      "centroid": [
+        23.1501,
+        79.2533
+      ],
+      "bbox": [
+        20.2551,
+        75.953,
+        25.5556,
+        82.8155
+      ]
+    },
+    {
+      "code": 11,
+      "name": "Eastern Plateau (Chhattisgarh Region), Hot Subhumid Eco-Region",
+      "raw_physio": "EASTERN PLATEAU (CHHATTISGARH REGION)",
+      "bioclimate": "Hot Subhumid",
+      "soil_order": "Red and Yellow Soils",
+      "lgp_days": "150\u2013180 days",
+      "lgp_class": "150-180",
+      "physiography": "Mahanadi basin / Chhattisgarh plain",
+      "states": [
+        "Chhattisgarh",
+        "Madhya Pradesh (Eastern)",
+        "Odisha (Western)"
+      ],
+      "crops": [
+        "Rice ('Rice Bowl of Central India')",
+        "Millets",
+        "Linseed",
+        "Pulses"
+      ],
+      "constraints": [
+        "Heavy monsoon runoff, low winter moisture storage in soils"
+      ],
+      "area_sqkm_dbf": 138311.01,
+      "calculated_area_km2": 134079.41,
+      "calculated_area_ha": 13407940.84,
+      "calculated_perimeter_km": 2962.87,
+      "centroid": [
+        22.681,
+        83.0077
+      ],
+      "bbox": [
+        19.7765,
+        80.4305,
+        25.2717,
+        85.9109
+      ]
+    },
+    {
+      "code": 12,
+      "name": "Eastern Plateau (Chhotanagpur) and Eastern Ghats, Hot Subhumid Eco-Region",
+      "raw_physio": "EASTERN PLATEAU (CHHOTANAGPUR) AND EASTERN GHATS  HOT SUBHUMID ECO-REGION",
+      "bioclimate": "Hot Subhumid",
+      "soil_order": "Red and Lateritic Soils",
+      "lgp_days": "150\u2013180 days",
+      "lgp_class": "150-180",
+      "physiography": "Chotanagpur Plateau and Garhjat Hills",
+      "states": [
+        "Jharkhand",
+        "Odisha",
+        "West Bengal (Purulia)"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Ragi",
+        "Niger seed",
+        "Potato"
+      ],
+      "constraints": [
+        "Soil acidity, high slope runoff, low available water capacity"
+      ],
+      "area_sqkm_dbf": 58694.76,
+      "calculated_area_km2": 274038.65,
+      "calculated_area_ha": 27403864.81,
+      "calculated_perimeter_km": 4031.15,
+      "centroid": [
+        20.7842,
+        83.7928
+      ],
+      "bbox": [
+        16.9145,
+        78.7723,
+        25.3488,
+        87.9786
+      ]
+    },
+    {
+      "code": 13,
+      "name": "Eastern Plain, Hot Subhumid (Moist) Eco-Region",
+      "raw_physio": "EASTERN PLAIN  HOT SUBAUMID (MOIST) ECO-REGION",
+      "bioclimate": "Hot Subhumid (Moist)",
+      "soil_order": "Alluvium-derived Soils",
+      "lgp_days": "180\u2013210 days",
+      "lgp_class": "180-210",
+      "physiography": "Middle Ganga Plain (Bihar and Eastern UP)",
+      "states": [
+        "Bihar",
+        "Uttar Pradesh (Eastern)"
+      ],
+      "crops": [
+        "Rice",
+        "Wheat",
+        "Maize",
+        "Jute",
+        "Pulses",
+        "Vegetables"
+      ],
+      "constraints": [
+        "Recurrent riverine flooding, river course avulsion, waterlogging"
+      ],
+      "area_sqkm_dbf": 10937.36,
+      "calculated_area_km2": 101364.16,
+      "calculated_area_ha": 10136416.07,
+      "calculated_perimeter_km": 2952.75,
+      "centroid": [
+        26.4639,
+        84.6693
+      ],
+      "bbox": [
+        24.3694,
+        79.625,
+        28.8873,
+        88.2983
+      ]
+    },
+    {
+      "code": 14,
+      "name": "Western Himalaya, Warm Subhumid to Humid Eco-Region",
+      "raw_physio": "WESTERN HIMALAYA  WARM SUBHUMID (TO HUMID WITH INCLUSION OF PERHUMID) ECO-REGION",
+      "bioclimate": "Warm Subhumid to Humid",
+      "soil_order": "Brown Forest and Podzolic Soils",
+      "lgp_days": "180\u2013210+ days",
+      "lgp_class": "180-210",
+      "physiography": "Western Himalayas (Pir Panjal, Dhauladhar, Shiwaliks)",
+      "states": [
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Uttarakhand"
+      ],
+      "crops": [
+        "Wheat",
+        "Maize",
+        "Rice",
+        "Apples",
+        "Temperate fruits",
+        "Barley"
+      ],
+      "constraints": [
+        "Steep slope terrain, landslides, cold injury at high elevations"
+      ],
+      "area_sqkm_dbf": 5370.44,
+      "calculated_area_km2": 196204.23,
+      "calculated_area_ha": 19620422.56,
+      "calculated_perimeter_km": 3304.86,
+      "centroid": [
+        32.4678,
+        76.7827
+      ],
+      "bbox": [
+        28.7096,
+        73.1295,
+        35.9282,
+        81.043
+      ]
+    },
+    {
+      "code": 15,
+      "name": "Assam and Bengal Plain, Hot Subhumid to Humid Eco-Region",
+      "raw_physio": "ASSAM AND BENGAL PLAIN  HOT SUBHUMID  TO HUMID  (INCLUSION  OF PERHUMID) ECO-REGION",
+      "bioclimate": "Hot Subhumid to Humid",
+      "soil_order": "Alluvium-derived Soils",
+      "lgp_days": "210+ days",
+      "lgp_class": "210+",
+      "physiography": "Brahmaputra Valley and Lower Gangetic Delta",
+      "states": [
+        "Assam",
+        "West Bengal"
+      ],
+      "crops": [
+        "Rice",
+        "Jute",
+        "Tea",
+        "Mustard",
+        "Potato"
+      ],
+      "constraints": [
+        "Severe annual flooding by Brahmaputra, riverbank erosion, marshlands"
+      ],
+      "area_sqkm_dbf": 49980.87,
+      "calculated_area_km2": 107746.91,
+      "calculated_area_ha": 10774690.76,
+      "calculated_perimeter_km": 9546.26,
+      "centroid": [
+        25.0119,
+        90.5312
+      ],
+      "bbox": [
+        20.7743,
+        86.8799,
+        27.972,
+        96.021
+      ]
+    },
+    {
+      "code": 16,
+      "name": "Eastern Himalayas, Warm Perhumid Eco-Region",
+      "raw_physio": "EASTERN HIMALAYAS  WARM PERHUMID ECO-REGION",
+      "bioclimate": "Warm Perhumid",
+      "soil_order": "Brown and Red Hill Soils",
+      "lgp_days": "210\u2013300+ days",
+      "lgp_class": "210+",
+      "physiography": "Eastern Himalayan mountain tracts",
+      "states": [
+        "Arunachal Pradesh",
+        "Sikkim",
+        "West Bengal (Darjeeling)"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Tea",
+        "Cardamom",
+        "Citrus (Orange)"
+      ],
+      "constraints": [
+        "Excessive cloudiness, steep unstable slopes, soil erosion, acidity"
+      ],
+      "area_sqkm_dbf": 74454.83,
+      "calculated_area_km2": 96517.19,
+      "calculated_area_ha": 9651718.75,
+      "calculated_perimeter_km": 3293.07,
+      "centroid": [
+        27.8313,
+        93.3806
+      ],
+      "bbox": [
+        26.4208,
+        87.9913,
+        29.4614,
+        97.4153
+      ]
+    },
+    {
+      "code": 17,
+      "name": "North Eastern Hills (Purvanchal), Warm Perhumid Eco-Region",
+      "raw_physio": "NORTH EASTERN HILLS (PURVACHAL)  WARM PERHUMID ECO-REGION",
+      "bioclimate": "Warm Perhumid",
+      "soil_order": "Red and Lateritic Soils",
+      "lgp_days": "210\u2013300+ days",
+      "lgp_class": "210+",
+      "physiography": "Purvanchal Hills (Patkai, Naga, Lushai, Garo, Khasi, Jaintia)",
+      "states": [
+        "Nagaland",
+        "Meghalaya",
+        "Manipur",
+        "Mizoram",
+        "Tripura"
+      ],
+      "crops": [
+        "Rice (Jhum & terrace)",
+        "Maize",
+        "Ginger",
+        "Pineapple",
+        "Spices"
+      ],
+      "constraints": [
+        "Shifting cultivation (jhum), heavy monsoon runoff, poor transport"
+      ],
+      "area_sqkm_dbf": 51515.4,
+      "calculated_area_km2": 110335.96,
+      "calculated_area_ha": 11033595.89,
+      "calculated_perimeter_km": 4264.83,
+      "centroid": [
+        25.0469,
+        93.1188
+      ],
+      "bbox": [
+        21.9442,
+        89.8168,
+        27.6601,
+        97.1707
+      ]
+    },
+    {
+      "code": 18,
+      "name": "Eastern Coastal Plain, Hot Subhumid to Semi-Arid Eco-Region",
+      "raw_physio": "EASTERN COASTAL PLAIN  HOT SUBHUMID TO SEMI-ARID EGO-REGION",
+      "bioclimate": "Hot Subhumid to Semi-Arid",
+      "soil_order": "Coastal Alluvial Soils",
+      "lgp_days": "90\u2013210 days",
+      "lgp_class": "90-150",
+      "physiography": "Eastern Coastal Plain and river deltas",
+      "states": [
+        "Odisha (Coastal)",
+        "Andhra Pradesh (Coastal)",
+        "Tamil Nadu (Coastal)"
+      ],
+      "crops": [
+        "Rice",
+        "Pulses",
+        "Groundnut",
+        "Sugarcane",
+        "Tobacco",
+        "Coconut"
+      ],
+      "constraints": [
+        "Tropical cyclones, marine inundation, deltaic soil salinity"
+      ],
+      "area_sqkm_dbf": 12632.25,
+      "calculated_area_km2": 82819.28,
+      "calculated_area_ha": 8281928.25,
+      "calculated_perimeter_km": 5622.36,
+      "centroid": [
+        15.7807,
+        82.0062
+      ],
+      "bbox": [
+        8.0778,
+        77.1001,
+        22.1244,
+        88.0531
+      ]
+    },
+    {
+      "code": 19,
+      "name": "Western Ghats and Coastal Plain, Hot Humid-Perhumid Eco-Region",
+      "raw_physio": "WESTERN GHATS AND COASTAL PLAIN  HOT HUMID-PERHUMID ECO-REGION",
+      "bioclimate": "Hot Humid to Perhumid",
+      "soil_order": "Red, Lateritic and Alluvial Soils",
+      "lgp_days": "210\u2013300+ days",
+      "lgp_class": "210+",
+      "physiography": "Western Ghats escarpment and coastal plains (Konkan, Malabar)",
+      "states": [
+        "Kerala",
+        "Karnataka (Coastal & Malnad)",
+        "Maharashtra (Konkan)",
+        "Goa"
+      ],
+      "crops": [
+        "Rice",
+        "Coconut",
+        "Rubber",
+        "Black Pepper",
+        "Cardamom",
+        "Coffee",
+        "Tea",
+        "Cashew"
+      ],
+      "constraints": [
+        "Heavy rainfall leaching, soil acidity, high relief in ghats"
+      ],
+      "area_sqkm_dbf": 74067.1,
+      "calculated_area_km2": 125878.39,
+      "calculated_area_ha": 12587839.11,
+      "calculated_perimeter_km": 4807.45,
+      "centroid": [
+        14.7016,
+        74.8152
+      ],
+      "bbox": [
+        8.2914,
+        72.5787,
+        21.666,
+        77.4127
+      ]
+    },
+    {
+      "code": 20,
+      "name": "Islands of Andaman-Nicobar and Lakshadweep, Hot Humid to Perhumid Island Eco-Region",
+      "raw_physio": "ISLANDS  OF ANDAMAN-NICOBAR  AND LAKSHADWEEP  HOT  HUMID  TO PERHUMID ISLAND ECO REGION",
+      "bioclimate": "Hot Humid to Perhumid",
+      "soil_order": "Red Loamy and Sandy Soils",
+      "lgp_days": "210\u2013300+ days",
+      "lgp_class": "210+",
+      "physiography": "Oceanic Islands (Andaman & Nicobar ridges, Lakshadweep atolls)",
+      "states": [
+        "Andaman & Nicobar Islands",
+        "Lakshadweep"
+      ],
+      "crops": [
+        "Coconut",
+        "Arecanut",
+        "Rice",
+        "Cassava",
+        "Spices",
+        "Tropical fruits"
+      ],
+      "constraints": [
+        "Vulnerability to sea surges, coastal erosion, coral reef fragility"
+      ],
+      "area_sqkm_dbf": 7577.85,
+      "calculated_area_km2": 8247.66,
+      "calculated_area_ha": 824766.48,
+      "calculated_perimeter_km": 3901.1,
+      "centroid": [
+        11.2065,
+        91.3199
+      ],
+      "bbox": [
+        6.756,
+        71.7315,
+        13.6758,
+        94.2758
+      ]
+    }
+  ]
+}
